@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "39f5383d-3aff-442d-82e1-a5533727950e")
+	(paper "A4")
+	(title_block
+		(title "8-BIT COMPUTER INDEX")
+		(date "2024-09-15")
+		(rev "0.0")
+		(company "MY COMPANY")
+		(comment 1 "AUTHOR SAYAN RANA")
+	)
+	(lib_symbols)
+	(sheet
+		(at 16.51 16.51)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c7e17b2-df34-427d-987e-79e5217f6f21")
+		(property "Sheetname" "Clock Module"
+			(at 16.51 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Clock-Module.kicad_sch"
+			(at 16.51 22.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8-Bit Computer"
+				(path "/39f5383d-3aff-442d-82e1-a5533727950e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 33.02)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a95d4cd-3024-4bf4-9d2a-dca88a0ee9ed")
+		(property "Sheetname" "8-BIT REGISTER"
+			(at 16.51 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "8-BIT_REGISTER.kicad_sch"
+			(at 16.51 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8-Bit Computer"
+				(path "/39f5383d-3aff-442d-82e1-a5533727950e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 45.72)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fffca100-2f3e-4462-8de6-bc3b4a376fd6")
+		(property "Sheetname" "ALU"
+			(at 16.51 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ALU.kicad_sch"
+			(at 16.51 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 16.51 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field3" ""
+			(at 16.51 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "8-Bit Computer"
+				(path "/39f5383d-3aff-442d-82e1-a5533727950e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

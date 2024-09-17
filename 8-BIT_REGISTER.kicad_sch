@@ -1,0 +1,129 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2a78792c-4d93-4879-b718-384e5952c61f")
+	(paper "A4")
+	(title_block
+		(title "8-BIT REGISTER INDEX")
+		(date "2024-09-16")
+		(rev "0.0")
+		(company "MY COMPANY")
+		(comment 1 "AUTHOR SAYAN RANA")
+	)
+	(lib_symbols)
+	(sheet
+		(at 114.3 67.31)
+		(size 16.51 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03ca241f-577f-46b2-a5b7-71944adee30e")
+		(property "Sheetname" "8-BIT INSTRUCTION REGISTER"
+			(at 114.3 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INST_REGISTER.kicad_sch"
+			(at 114.3 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8-Bit Computer"
+				(path "/39f5383d-3aff-442d-82e1-a5533727950e/8a95d4cd-3024-4bf4-9d2a-dca88a0ee9ed"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 68.58)
+		(size 16.51 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16a25030-2590-459c-9245-8077aa7fdcee")
+		(property "Sheetname" "8-BIT A REGISTER"
+			(at 41.91 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "A_REGISTER.kicad_sch"
+			(at 41.91 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8-Bit Computer"
+				(path "/39f5383d-3aff-442d-82e1-a5533727950e/8a95d4cd-3024-4bf4-9d2a-dca88a0ee9ed"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 67.31)
+		(size 16.51 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ffb61e2-a053-4140-a564-f056b33ec8ff")
+		(property "Sheetname" "8-BIT B REGISTER"
+			(at 77.47 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "B_REGISTER.kicad_sch"
+			(at 77.47 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8-Bit Computer"
+				(path "/39f5383d-3aff-442d-82e1-a5533727950e/8a95d4cd-3024-4bf4-9d2a-dca88a0ee9ed"
+					(page "5")
+				)
+			)
+		)
+	)
+)
